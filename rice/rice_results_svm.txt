@@ -1,0 +1,2 @@
+{'accuracy': 0.9146981627296588, 'f1': 0.9267192784667418, 'recall': 0.9426605504587156, 'precision': 0.9113082039911308, 'time': 28.33565664291382, 'best_params': 'C = 6, gamma = scale, kernel = rbf', 'confusion_matrix': array([[286,  40],
+       [ 25, 411]], dtype=int64)}
