@@ -1,0 +1,12 @@
+\begin{tabular}{llllll}
+\toprule
+{} &                       CART &          KNN &                     KDE &                         RF &                                       SVM \\
+\midrule
+accuracy        &                   0.883584 &     0.731179 &                0.860448 &                   0.930224 &                                  0.915167 \\
+precision\_macro &                   0.900313 &     0.742364 &                0.873899 &                   0.940783 &                                    0.9279 \\
+recall\_macro    &                   0.888333 &     0.732003 &                0.859573 &                   0.937888 &                                  0.924443 \\
+f1-score\_macro  &                    0.89349 &     0.735181 &                0.863039 &                   0.939266 &                                  0.925836 \\
+time            &                  42.283521 &  3096.580188 &              193.348351 &                4207.323831 &                                661.543245 \\
+best\_params     &  cp = \{'ccp\_alpha': 0.015\} &        k = 8 &  h = \{'bandwidth': 1.0\} &  n = 50, m = 0.8, s = None &  C = 1, gamma = 'scaled', kernel = linear \\
+\bottomrule
+\end{tabular}
