@@ -1,0 +1,2 @@
+{'accuracy': 0.916010498687664, 'f1': 0.927765237020316, 'recall': 0.9426605504587156, 'precision': 0.9133333333333333, 'time': 2.4917235374450684, 'best_params': "cp = {'ccp_alpha': 0.002}", 'confusion_matrix': array([[287,  39],
+       [ 25, 411]], dtype=int64)}
